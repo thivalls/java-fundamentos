@@ -1,4 +1,4 @@
-package lambdas;
+package main.lambdas;
 
 public class Soma implements Calculo{
     @Override

@@ -1,4 +1,4 @@
-package lambdas;
+package main.lambdas;
 
 public class Multiplicar implements Calculo{
     @Override

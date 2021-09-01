@@ -1,4 +1,4 @@
-package lambdas;
+package main.lambdas;
 
 @FunctionalInterface
 public interface Calculo {

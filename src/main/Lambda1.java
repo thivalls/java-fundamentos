@@ -1,8 +1,10 @@
-import lambdas.Calculo;
+package main;
+
+import main.lambdas.Calculo;
 
 import java.util.function.BinaryOperator;
 
-public class ApplicationLambda {
+public class Lambda1 {
     public static void main(String[] args) {
         // Usando uma interface nativa do Java
         BinaryOperator<Double> binSum = (value1, value2) -> value1 + value2;
