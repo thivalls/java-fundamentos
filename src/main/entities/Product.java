@@ -1,4 +1,4 @@
-package main.examples;
+package main.entities;
 
 public class Product {
     final String name;
