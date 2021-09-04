@@ -34,4 +34,13 @@ public class Product {
     public void setDiscount(double discount) {
         discount = discount;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", discount=" + discount +
+                '}';
+    }
 }

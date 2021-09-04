@@ -2,14 +2,23 @@ package main;
 
 import main.entities.Product;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 
 public class Consumidor {
     public static void main(String[] args) {
-        Consumer<Product> consolePrice = product -> System.out.println(product.getPrice());
+        Consumer<Product> showPriceDiscount = product -> System.out.println(product.getPrice() * product.getDiscount());
 
-        Product product = new Product("Book", 100.00, 0.10);
+        Product product1 = new Product("Book", 100.00, 0.10);
+        Product product2 = new Product("Book", 200.00, 0.10);
+        Product product3 = new Product("Book", 300.00, 0.10);
+        Product product4 = new Product("Book", 400.00, 0.10);
 
-        consolePrice.accept(product);
+        List<Product> produtos = Arrays.asList(product1, product2, product3, product4);
+
+        produtos.forEach(showPriceDiscount);
+
+        produtos.forEach(System.out::println);
     }
 }
