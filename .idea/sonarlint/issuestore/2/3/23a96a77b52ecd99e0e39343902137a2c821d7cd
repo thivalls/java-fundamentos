@@ -1,0 +1,19 @@
+
+N
+java:S1854"8Remove this useless assignment to local variable "name".(¦äµÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(¦äµÿ
+N
+java:S1854"9Remove this useless assignment to local variable "price".(›ÏÃK
+D
+java:S1656"/Remove or correct this useless self-assignment.(›ÏÃK
+W
+java:S1854#"<Remove this useless assignment to local variable "discount".(Ï·¥“ýÿÿÿÿ
+J
+java:S1656#"/Remove or correct this useless self-assignment.(Ï·¥“ýÿÿÿÿ
+
+java:S4165#"fRemove this useless assignment; "discount" already holds the assigned value along all execution paths.(Ï·¥“ýÿÿÿÿ
+x
+java:S4165"cRemove this useless assignment; "price" already holds the assigned value along all execution paths.(›ÏÃK
+x
+java:S4165"bRemove this useless assignment; "name" already holds the assigned value along all execution paths.(¦äµÿ
