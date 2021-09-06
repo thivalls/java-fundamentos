@@ -1,4 +1,4 @@
-package main;
+package main.lambdas;
 
 import java.lang.Thread;
 

@@ -1,4 +1,6 @@
-package main;
+package main.lambdas.main;
+
+import main.lambdas.Trabalho1;
 
 import java.lang.Thread;
 
