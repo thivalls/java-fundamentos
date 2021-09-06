@@ -1,4 +1,4 @@
-package main;
+package main.lambdas.main;
 
 import main.entities.Product;
 

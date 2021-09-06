@@ -1,4 +1,4 @@
-package main;
+package main.lambdas.main;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.function.Function;

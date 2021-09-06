@@ -1,11 +1,5 @@
-package main;
+package main.lambdas.main;
 
-import main.lambdas.Dividir;
-import main.lambdas.Multiplicar;
-import main.lambdas.Soma;
-import main.lambdas.Subtrair;
-
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.List;
 
