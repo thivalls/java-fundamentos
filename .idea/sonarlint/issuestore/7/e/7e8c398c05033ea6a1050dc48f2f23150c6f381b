@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨†ß
+{
+java:S4276	"YRefactor this code to use the more specialised Functional Interface 'DoubleUnaryOperator'(Äß°êúÿÿÿÿ8Éò§»/
+{
+java:S4276
+"YRefactor this code to use the more specialised Functional Interface 'DoubleUnaryOperator'(ÁËÿúÿÿÿÿ8÷Ó­»/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8Æ†£»/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…É˜ûÿÿÿÿ8¤ö¬»/

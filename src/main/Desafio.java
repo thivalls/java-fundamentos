@@ -2,7 +2,6 @@ package main;
 
 import main.entities.Product;
 
-import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
@@ -16,13 +15,11 @@ public class Desafio {
          * 5. Formatar: R$1234,26
          */
 
-        System.out.println("MINHA SOLUÇÃO");
-
         Function<Product, Double> calcPrice = product -> product.getPrice() * (1 - product.getDiscount());
         UnaryOperator<Double> calcTax = price -> price < 2500.0 ? price : price + (price * (8.5 / 100));
         UnaryOperator<Double> calcShipping = price -> price < 3000 ? price + 50.0 : price + 100.0;
-        UnaryOperator<Double> setFormatNumber = price -> Double.parseDouble(String.format("%.2f", price));
-        Function<Double, String> formatResponse = priceString -> ("R$ " + priceString).replace(".", ",");
+        UnaryOperator<Double> setFormatNumber = price -> Double.parseDouble(String.format("%.2f", price).replace(",", "."));
+        Function<Double, String> formatResponse = priceString -> ("R$ " + priceString.toString()).replace(".", ",");
 
         Product p = new Product("Ipad", 3235.89, 0.13);
         Object result = calcPrice
@@ -33,9 +30,6 @@ public class Desafio {
                 .apply(p);
 
         System.out.println(result);
-
-        System.out.println("SOLUÇÃO DO TUTOR");
-
 
     }
 }

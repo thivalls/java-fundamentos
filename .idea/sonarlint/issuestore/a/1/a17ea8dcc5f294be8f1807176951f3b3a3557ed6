@@ -1,0 +1,14 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³É™Øûÿÿÿÿ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(³ñì
+v
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(¢Ÿóûşÿÿÿÿ
+v
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(²ÁÜÈÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ã¿âÃøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïíÑ§ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶ç®Â
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ë£Í¸
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Û¡°üÿÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'javax.swing.plaf.synth.SynthOptionPaneUI'.(ªè´¡şÿÿÿÿ

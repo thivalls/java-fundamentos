@@ -1,0 +1,12 @@
+
+B
+java:S1612",Replace this lambda with a method reference.(¥ºË±
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¥ºË±
+m
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ÔßÃ³úÿÿÿÿ
+{
+java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(£Ù¾øüÿÿÿÿ8‡”ž÷º/
+{
+java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(½¬°¹ýÿÿÿÿ8Ä–£÷º/
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(„¤µé8­ø£÷º/
