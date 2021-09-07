@@ -2,13 +2,12 @@ package main.streams;
 
 import main.entities.Product;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Application {
+public class StreamOfList {
     public static void main(String[] args) {
         List<Product> produtos = Arrays.asList(
                 new Product("Shampoo", 12.00, 0.0),

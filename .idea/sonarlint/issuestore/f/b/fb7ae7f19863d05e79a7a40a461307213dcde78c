@@ -1,23 +1,0 @@
-
-p
-java:S4276
-"ZRefactor this code to use the more specialised Functional Interface 'DoubleBinaryOperator'(ö‡óš
-u
-java:S4276"ZRefactor this code to use the more specialised Functional Interface 'DoubleBinaryOperator'(Ç–¸ƒÿÿÿÿÿ
-p
-java:S4276"ZRefactor this code to use the more specialised Functional Interface 'DoubleBinaryOperator'(øéŞ
-u
-java:S4276"ZRefactor this code to use the more specialised Functional Interface 'DoubleBinaryOperator'(Ã’Èÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¥àƒ’üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(èâñÇ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Î²·çüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊÉ²
-S	java:S106"9Replace this use of System.out or System.err by a logger.(£Áÿîüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(…íÉÄúÿÿÿÿ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ¿«$
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¹×ô½ÿÿÿÿÿ
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(‚Á¶—úÿÿÿÿ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(È®ÃÎ
-S	java:S106#"9Replace this use of System.out or System.err by a logger.(æ¤ªºûÿÿÿÿ
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(—Ş·¡
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
