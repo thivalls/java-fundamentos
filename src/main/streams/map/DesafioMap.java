@@ -1,4 +1,4 @@
-package main.streams;
+package main.streams.map;
 
 import java.util.Arrays;
 import java.util.List;

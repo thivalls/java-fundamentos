@@ -1,4 +1,4 @@
-package main.streams;
+package main.streams.map;
 
 import main.entities.Product;
 
