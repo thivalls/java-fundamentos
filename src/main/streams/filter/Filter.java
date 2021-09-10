@@ -2,11 +2,9 @@ package main.streams.filter;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class DesafioFilter {
+public class Filter {
     public static void main(String[] args) {
         System.out.println("Desafio STREAM FILTER");
 
@@ -14,7 +12,7 @@ public class DesafioFilter {
 
         names.stream().filter(n -> n.contains("Car")).forEach(System.out::println);
 
-        List<Integer> nums = Arrays.asList(100, 22 ,13 , 45, 25, 68, 17, 28, 99);
+        List<Integer> nums = Arrays.asList(100, 22 ,13 , 45, 25, 68, 17, 28, 99, 30);
         Predicate<Integer> menorQue5 = n -> n <= 30;
         nums.stream().filter(menorQue5).forEach(System.out::println);
 
