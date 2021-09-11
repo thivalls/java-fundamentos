@@ -1,5 +1,5 @@
 package entities;
 
-public class BoxInteger extends Box<Integer> {
+public class BoxInteger extends Caixa<Integer> {
 
 }

@@ -1,5 +1,5 @@
 package entities;
 
-public class BoxString extends Box<String> {
+public class BoxString extends Caixa<String> {
 
 }
