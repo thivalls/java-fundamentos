@@ -24,7 +24,7 @@ public class Reduce2 {
 
         // alunos.stream().filter(aprovado).map(getNota).forEach(System.out::println);
         alunos.stream()
-                // .filter(aprovado)
+                .filter(aprovado)
                 .map(getNota)
                 .reduce(somatorio)
                 .ifPresent(System.out::println);
